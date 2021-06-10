@@ -1,6 +1,6 @@
-### gnome-shell-duckduckgo-search-provider
+### gnome-shell-naver-search-provider
 
-This is a Search Provider for [Gnome Shell](https://wiki.gnome.org/Projects/GnomeShell), and it provides [DuckDuckGo Search](https://duckduckgo.com/) functionality.
+This is a Search Provider for [Gnome Shell](https://wiki.gnome.org/Projects/GnomeShell), and it provides [Naver Search](https://www.naver.com/) functionality.
 
 
 ![a screenshot featuring this extensions interface, in Gnome Shell](./screenshot.png)
