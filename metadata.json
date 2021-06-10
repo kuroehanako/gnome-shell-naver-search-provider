@@ -1,9 +1,9 @@
 {
-    "name": "DuckDuckGo Search Provider",
+    "name": "Naver Search Provider",
     "shell-version": ["3.36", "3.38", "40.0"],
-    "uuid": "gnome-shell-duckduckgo-search-provider@keithcirkel.co.uk",
-    "settings-schema": "org.gnome.shell.extensions.duckduckgo-search-provider",
-    "description": "Add DuckDuckGo search suggestions to Gnome Shell Search",
-    "url": "https://github.com/keithamus/gnome-shell-duckduckgo-search-provider",
-    "version": 2
+    "uuid": "gnome-shell-naver-search-provider@kuroehanako",
+    "settings-schema": "org.gnome.shell.extensions.naver-search-provider",
+    "description": "Add Naver search suggestions to Gnome Shell Search",
+    "url": "https://github.com/kuroehanako/gnome-shell-naver-search-provider",
+    "version": 1
 }
