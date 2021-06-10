@@ -77,7 +77,7 @@ function getResultMeta(id: string): SearchResultMeta {
   return {
     id,
     name: answer,
-    description: `Search DuckDuckGo`,
+    description: `Search Naver`,
     clipboardText: answer,
     createIcon() { return null },
   };
@@ -92,9 +92,9 @@ function makeLaunchContext() {
 
 const ddgProvider: SearchProvider = {
   appInfo: {
-    get_name: () => `DuckDuckGo`,
+    get_name: () => `Naver`,
     get_icon: () => gicon,
-    get_id: () => `duckduckgo-provider`,
+    get_id: () => `naver-provider`,
     should_show: () => true,
   },
 
@@ -106,7 +106,7 @@ const ddgProvider: SearchProvider = {
     const { type, answer } = JSON.parse(result) as unknown as SearchAnswer;
     let url = "";
     if (type === "suggestion" || type === "query") {
-      url = `https://duckduckgo.com/?q=${answer}`;
+      url = `https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=${answer}`;
     } else if (type === "bang") {
       url = answer;
     }
