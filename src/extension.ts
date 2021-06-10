@@ -166,12 +166,12 @@ export function init() {}
 
 let instance: SearchProvider;
 export function enable() {
-  global.log(`Enabling DuckDuckGo IA Search Provider`);
+  global.log(`Enabling Naver IA Search Provider`);
   instance = Object.create(ddgProvider);
   getOverviewSearchResult()._registerProvider(instance);
 }
 
 export function disable() {
-  global.log(`Disabling DuckDuckGo IA Search Provider`);
+  global.log(`Disabling Naver IA Search Provider`);
   getOverviewSearchResult()._unregisterProvider(instance);
 }
